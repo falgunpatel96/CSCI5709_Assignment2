@@ -1,0 +1,55 @@
+.top-nav {
+  height: 80px;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  background-color: #444;
+}
+.top-nav .navbar-nav li .nav-link {
+  color: #fff;
+  font-size: 14px;
+  padding: 29px 15px 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+}
+.top-nav li a.nav-link:hover,
+.top-nav .nav-item.active a.nav-link {
+  color: #35cbdf;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+}
+.top-nav .navbar-brand {
+  font-size: 28px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #35cbdf;
+  transition: 0.5s;
+}
+.nav-item:hover::after {
+    color: #35cbdf;
+    width: 100%;
+}
+.nav-link {
+    color: #fff;
+  padding: 15px 5px;
+  transition: 0.2s;
+}
+.secound-head .navbar-nav li .nav-link {
+  color: #fff;
+}
+.secound-head .navbar-nav li .nav-link {
+  color: #fff;
+}
+.secound-head .navbar-brand {
+  color:#fff;
+}
