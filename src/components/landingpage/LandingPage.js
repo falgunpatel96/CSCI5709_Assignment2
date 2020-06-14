@@ -34,8 +34,8 @@ handleSubmit=(event) =>{
   render() {
     return (
       <div>
-        <div className="login-page">
-          <div className="container">
+        
+          <div className="container log-custom-height">
             <div className="row">
               <div className="col-xl-8 m-auto col-sm-8 col-12">
                 <div className="log-box">
@@ -89,7 +89,7 @@ handleSubmit=(event) =>{
             </div>
           </div>
         </div>
-      </div>
+
     );
   }
 }

@@ -156,9 +156,10 @@
   }
 }
 .page-content-wrapper {
-  height: 81.5vh;
+  height: 63.3vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
-
 .button-style {
   background-color: Transparent;
   background-repeat: no-repeat;

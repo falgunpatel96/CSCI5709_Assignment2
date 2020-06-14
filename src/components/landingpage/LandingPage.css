@@ -1,11 +1,6 @@
-.login-page{
-	background: #f6f6f6;
-	padding:40px 0px;
-	min-height:450px;
-	position:relative;
-	display:inline-flex;
-	width:100%;
-	height: 81.5vh;
+.log-custom-height{
+    margin-top: 13.6vh;
+    margin-bottom: 13vh;
 }
 @media only screen and (min-width: 740px) {
     .log-box{
