@@ -52,7 +52,6 @@ class StudentDashboard extends Component {
                       className="fa fa-bars "
                       style={{ fontSize: "20px" }}
                       aria-hidden="true"
-                      aria-hidden="true"
                     />
                   </a>
                 </li>
